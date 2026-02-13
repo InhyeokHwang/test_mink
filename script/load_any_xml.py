@@ -8,7 +8,6 @@
 
 
 import mujoco
-import numpy as np
 from mujoco.viewer import launch
 from pathlib import Path
 
