@@ -14,7 +14,7 @@ from pathlib import Path
 # Path to your MuJoCo XML model MJCF
 # resolved relative to the repository root (parent of this scripts/ folder)
 MJCF_FILE_PATH = str(
-    (Path(__file__).resolve().parent.parent / "description" / "franka_emika_panda" / "scene.xml")
+    (Path(__file__).resolve().parent.parent / "description" / "dual_arm" / "scene.xml")
 )
 
 # Load the MuJoCo model from the specified XML path

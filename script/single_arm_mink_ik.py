@@ -11,6 +11,7 @@ import mink
 _XML = Path(__file__).parent.parent / "description" / "agilex_piper" / "scene.xml"
 
 
+
 SOLVER = "daqp"
 POS_THRESHOLD = 1e-4
 ORI_THRESHOLD = 1e-4

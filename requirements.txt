@@ -1,0 +1,27 @@
+# --- Core numerical stack ---
+numpy
+scipy
+matplotlib
+
+# --- MuJoCo simulation ---
+mujoco
+glfw
+
+# --- IK / Optimization ---
+mink
+qpsolvers
+osqp
+daqp
+
+# --- Timing / control loop ---
+loop-rate-limiters
+
+# --- Dependency fixes ---
+pyyaml
+typeguard
+
+# --- Real robot SDK ---
+piper-sdk
+
+
+# 버전 충돌은 웬만하면 발생 안함
