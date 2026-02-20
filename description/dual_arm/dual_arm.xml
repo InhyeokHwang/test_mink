@@ -124,7 +124,7 @@
                                           <inertial pos="0 0 0" mass="1e-06" fullinertia="1e-09 1e-09 1e-09 0 0 0"/>
                                           <body name="right_Hand_Dummy_Link" pos="-0.0056 0.0126 0.06" quat="0.6618783286 0.2493588965 -0.6614811861 -0.2493588965">
                                               <!-- site 추가-->
-                                              <site name="gripper_right" pos="0 0 0" size="0.03"/>
+                                              <site name="gripper_right" pos="0 0 0" size="0.002"/>
                                               <inertial pos="0.005220094871 -0.01266226649 -0.002339754105" mass="0.4104004357" fullinertia="0.0002736560868 0.0003665647338 0.0002693697631 -1.625998744e-05 -2.20916206e-05 -3.736178695e-06"/>
                                               <geom class="visual" mesh="rh_hand_dummy_link" material="blue"/>
                                               <geom class="collision" mesh="rh_hand_dummy_link"/>
@@ -237,7 +237,7 @@
                                           <inertial pos="0 0 0" mass="1e-06" fullinertia="1e-09 1e-09 1e-09 0 0 0"/>
                                           <body name="left_Hand_Dummy_Link" pos="0.0056 0.0126 0.06" quat="0.6618783286 0.2493588965 -0.6614811861 -0.2493588965">
                                               <!-- site 추가 -->
-                                              <site name="gripper_left" pos="0 0 0" size="0.03"/>
+                                              <site name="gripper_left" pos="0 0 0" size="0.002"/>
                                               <inertial pos="0.005225293286 -0.01259942699 0.002045121406" mass="0.3910884626" fullinertia="0.0002614254715 0.0003440918145 0.0002488275565 -1.406195593e-05 1.954982259e-05 1.994317748e-06"/>
                                               <geom class="visual" mesh="lh_hand_dummy_link" material="blue"/>
                                               <geom class="collision" mesh="lh_hand_dummy_link"/>

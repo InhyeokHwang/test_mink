@@ -1,5 +1,30 @@
-### load_any_xml.py
-이 MuJoCo XML이 정상적으로 로드되고 렌더링이 되는지 테스트 용도
+**This project uses code from the mink project by Kevin Zakka (https://github.com/kevinzakka/mink), licensed under Apache-2.0.**
 
-### mink_ik.py
-mink로 IK 테스트
+### load_any_xml.py
+check to see if MJCF files are properly loaded
+
+### single_arm_mink_ik.py
+single arm IK
+
+### bimanual_mink_ik.py
+bimanual IK
+
+### make conda env
+```bash
+conda create -n <env_name> python=3.10
+conda activate <env_name>
+```
+### dependencies
+```bash
+pip install -r requirements.txt
+```
+### run codes
+bimanual example
+```bash
+python3 bimanual_mink_ik.py
+```
+![bimanual example](assets/bimanual.png)
+
+**double click mocap target(green/blue sphere) and press \
+ctrl + left click for orientation control and \
+ctrl + right click for position control**
