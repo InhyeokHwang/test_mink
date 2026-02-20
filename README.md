@@ -1,15 +1,16 @@
+### Citation
 **This project uses code from the mink project by Kevin Zakka (https://github.com/kevinzakka/mink), licensed under Apache-2.0.**
-
+``` bibtex
 @software{Zakka_Mink_Python_inverse_2026,
-  author = {Zakka, Kevin},
-  title = {{Mink: Python inverse kinematics based on MuJoCo}},
-  year = {2026},
-  month = feb,
+  author  = {Zakka, Kevin},
+  title   = {{Mink: Python inverse kinematics based on MuJoCo}},
+  year    = {2026},
+  month   = feb,
   version = {1.1.0},
-  url = {https://github.com/kevinzakka/mink},
+  url     = {https://github.com/kevinzakka/mink},
   license = {Apache-2.0}
 }
-
+```
 
 ### load_any_xml.py
 check to see if MJCF files are properly loaded
